@@ -2,6 +2,7 @@ package br.com.estudos;
 
 import java.util.HashSet;
 import java.util.LinkedHashSet;
+import java.util.Set;
 import java.util.TreeSet;
 
 public class TestandoTempoSet {
@@ -9,9 +10,9 @@ public class TestandoTempoSet {
     public static void main(String[] args) {
 
 
-        HashSet<Integer> hashSet = new HashSet<>();
-        TreeSet<Integer> treeSet = new TreeSet<>();
-        LinkedHashSet<Integer> linkedSet = new LinkedHashSet<>();
+        Set<Integer> hashSet = new HashSet<>();
+        Set<Integer> treeSet = new TreeSet<>();
+        Set<Integer> linkedSet = new LinkedHashSet<>();
 
         long inicioDaContagem = System.nanoTime();
 
